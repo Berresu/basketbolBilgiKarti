@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.kart{
+    width: 35vh;
+    height: 80vh;
+    background-color: red;
+    flex-wrap: wrap;
+}
+
+#resim{
+    width: 30vh;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    flex-wrap: wrap;
+    margin: 2vh;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#logoResim{
+    width: 5vh;
+    height: 5vh;
+    flex-wrap: wrap;
+    margin-left: 2vh;
+}
+
+#bilgi{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vh;
+}
+
+#oynadigiMacSayisi{
+    display: flex;
+    padding-left: 20vh;
+    flex-wrap: wrap;
+}
+
+#isim{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
